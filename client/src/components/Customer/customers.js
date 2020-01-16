@@ -15,7 +15,7 @@ class Customers extends Component {
     customers: []
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.props.getCustomers();
   }
 
